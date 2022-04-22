@@ -15,20 +15,14 @@ body {
 }
 
 .container {
-    width: 305px;
-    height: 603px;
+    width: 500px;
     margin: 0 auto;
-    position: relative;
-}
-
-.message {
-    width: 305px;
-    font-size: 20px;
-    text-align: center;
-    line-height: 40px;
-    top: 200px;
-    position: absolute;
-    display: none;
+    display: grid;
+    gap: 50px;
+    align-items: flex-start;
+    grid-template-areas:
+    'score game'
+    'next game';
 }
 
 .game-area {

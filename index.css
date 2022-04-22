@@ -15,12 +15,24 @@ body {
 }
 
 .container {
-    width: 500px;
+    width: 305px;
+    height: 603px;
     margin: 0 auto;
+    position: relative;
+}
+
+.message {
+    width: 305px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    top: 200px;
+    position: absolute;
+    display: none;
 }
 
 .game-area {
     border: solid black;
     border-width: 0 2px 3px 3px;
-    display: none;
+    display: block;
 }
